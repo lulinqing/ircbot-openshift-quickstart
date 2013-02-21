@@ -1,11 +1,5 @@
 #!/bin/env node
 
-// Nodefly monitor
-require('nodefly').profile(
-    '909e2fee-c15f-4781-b4ef-c9a72153634f',
-    process.env.OPENSHIFT_APP_DNS || 'localhost'
-);
-
 // IRC bot
 var irc = require('irc');
 var bot = new irc.Client('chat.freenode.net', process.env.OPENSHIFT_APP_NAME || 'ircbot', {
