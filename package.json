@@ -25,6 +25,7 @@
   },
 
   "dependencies": {
+    "irc" : "stable"
     "nodefly": "stable"
   },
   "devDependencies": {},
