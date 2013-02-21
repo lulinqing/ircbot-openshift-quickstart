@@ -1,4 +1,17 @@
 #!/bin/env node
+
+require('nodefly').profile(
+    '4d136518a28e70c25aeaa67cb81568a6',
+    ["node"],
+    options // optional
+);
+
+var options = {
+  // time in ms when the event loop is considered blocked
+   blockThreshold: 10
+};
+
+
 //  OpenShift sample Node application
 var express = require('express');
 var fs      = require('fs');

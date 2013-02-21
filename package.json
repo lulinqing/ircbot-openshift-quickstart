@@ -25,6 +25,7 @@
   },
 
   "dependencies": {
+    "nodefly": "stable"
   },
   "devDependencies": {},
   "bundleDependencies": [],
